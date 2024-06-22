@@ -11,6 +11,6 @@ public class Car : Vehicle
     }
     public override void Move()
     {
-        Debug.Log(name + " : if base layer road can achieve maxSpeed, else if base layer Sand/grass maxSpeed /= 3 ");
+        Debug.Log(name + " : moving if base layer road can achieve maxSpeed, else if base layer Sand/grass maxSpeed /= 3 ");
     }
 }

@@ -11,6 +11,6 @@ public class Boat : Vehicle
     }
     public override void Move()
     {
-        Debug.Log(name + " : if base layer is Water");
+        Debug.Log(name + " : moving if base layer is Water");
     }
 }
